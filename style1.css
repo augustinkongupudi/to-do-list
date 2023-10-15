@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+} 
+#logo{
+    width: 200px;
+    height: 100px;
+    padding: 10%;
+    top: 10px;
+    left: 40%;
+}
+h2{
+    font: size 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.inputbox{
+    position: relative;
+}
+.inputbox input{
+    width: 93%;
+    padding: 10px;
+    font-size: 16px;
+    background: transparent;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+.inputbox label{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    padding: 10px 0;
+    color: gray;
+    pointer-events: none;
+}
+.inputbox input:focus~label,
+.inputbox input:valid~label{
+    top:-18px;
+    left: 10px;
+    font-size: 11px;
+    height: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background: white;
+    pointer-events: none;
+}
+
+.inputbox input:focus{
+    outline: none;
+    border: 2px solid blue;
+     
+}
+input[type="submit"]{
+    border: 15px;
+    outline: 8px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    float: right;
+}
+.forgot button{
+    border: none;
+    outline: none;
+    color: blue;
+    font-weight: 500;
+    background-color: transparent;
+    text-align: left;
+}
+
